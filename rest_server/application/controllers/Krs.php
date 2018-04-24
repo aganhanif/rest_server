@@ -26,7 +26,7 @@ class krs extends REST_Controller {
                     'nim'           => $this->post('nim'),
                     'nama'          => $this->post('nama'),
                     'nmmk'          => $this->post('nmmk'),
-                    'nm_dosen'      => $this->post('nmmk'),
+                    'nm_dosen'      => $this->post('nm_dosen'),
                     'prodi'         => $this->post('prodi'));
         $insert = $this->db->insert('krs', $data);
         if ($insert) {
